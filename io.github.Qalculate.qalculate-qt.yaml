@@ -67,5 +67,5 @@ modules:
           cxxflags: -fsigned-char
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-qt/releases/download/v4.2.0/qalculate-qt-4.2.0.tar.gz
-        sha256: 1c62e419bb1f4c16aa428f68281bee3c44a12dde865e0a0b22e53b09f79a0a36
+        url: https://github.com/Qalculate/qalculate-qt/releases/download/v4.2.0/qalculate-qt-4.2.0b.tar.gz
+        sha256: a95ed178ecf33cf1c179466b2b2dc329e1675c66f89e3d90033a711d19d59ab9
