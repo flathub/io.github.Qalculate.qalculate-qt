@@ -56,8 +56,8 @@ modules:
       - --enable-compiled-definitions
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v4.2.0/libqalculate-4.2.0.tar.gz
-        sha256: 2b86e656508f0b1c55236b08fd579b676563e1500b3db8304580de69c5693e4b
+        url: https://github.com/Qalculate/libqalculate/releases/download/v4.3.0/libqalculate-4.3.0.tar.gz
+        sha256: ddcb7b77dcbd06775cde95ea8360e4ffaef8f9df34c9690700c87980c36ab244
 
   - name: qalculate-qt
     buildsystem: qmake
@@ -67,5 +67,5 @@ modules:
           cxxflags: -fsigned-char
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-qt/releases/download/v4.2.0/qalculate-qt-4.2.0b.tar.gz
-        sha256: a95ed178ecf33cf1c179466b2b2dc329e1675c66f89e3d90033a711d19d59ab9
+        url: https://github.com/Qalculate/qalculate-qt/releases/download/v4.3.0/qalculate-qt-4.3.0.tar.gz
+        sha256: add2c06b7909b99de2db8853ba48af5556ac51358423faeb1c03931fb6c446bf
