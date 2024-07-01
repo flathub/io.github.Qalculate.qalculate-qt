@@ -68,4 +68,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.2.0/qalculate-qt-5.2.0.tar.gz
-        sha256: d9d16487ffe8de041d035442e036931021788325e0578b684840eece7132a88d
+        sha256: 7a9b77aa22675a138126e350944c5f7f1a73ba3b5638bf9dcdeee7f539d6fa87
