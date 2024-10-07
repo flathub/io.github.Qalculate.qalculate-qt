@@ -1,6 +1,6 @@
 app-id: io.github.Qalculate.qalculate-qt
 runtime: org.kde.Platform
-runtime-version: '6.6'
+runtime-version: '6.7'
 sdk: org.kde.Sdk
 command: qalculate-qt
 rename-icon: qalculate-qt
@@ -56,8 +56,8 @@ modules:
       - --enable-compiled-definitions
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.2.0/libqalculate-5.2.0.tar.gz
-        sha256: 20be13a39aea7f0371af789539cb285892f2e15d8240f29f9f380984e3446830
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.3.0/libqalculate-5.3.0.tar.gz
+        sha256: 61dd60b1d43ad3d2944cff9b2f45c9bc646c5a849c621133ef07231e8289e35b
 
   - name: qalculate-qt
     buildsystem: qmake
@@ -67,5 +67,5 @@ modules:
           cxxflags: -fsigned-char
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.2.0/qalculate-qt-5.2.0.tar.gz
-        sha256: 6daef548376d1a941515f3ee5c268ec97a64668474ff6c31e02890eee12f2b75
+        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.3.0/qalculate-qt-5.3.0.tar.gz
+        sha256: 535aa5513d15c97c953f853225390effd7a3875d2564abeeb8584addf43050a9
