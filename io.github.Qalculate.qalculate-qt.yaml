@@ -64,8 +64,8 @@ modules:
       - --enable-compiled-definitions
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.7.0/libqalculate-5.7.0.tar.gz
-        sha256: b0aa7e7f6b729ad88f41c3562e81bdc349e072f4df0e62ce152304d979702cfe
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.8.0/libqalculate-5.8.0.tar.gz
+        sha256: 5595dc304de252945ee51bd68cef3b5f0dacf3ce1c75bd0a8f6c158c1c723741
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -79,8 +79,8 @@ modules:
           cxxflags: -fsigned-char
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.7.0/qalculate-qt-5.7.0.tar.gz
-        sha256: 76e03b976a7b1347a6e8779b6be83ea053ab74e8ddeafb0aa62d20b3fadc0b9c
+        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.8.0/qalculate-qt-5.8.0.tar.gz
+        sha256: 7c8e3074b709177462ead9b2b36736b18f1cb0f8e88dda3608911b9f7491c8e6
         x-checker-data:
           type: anitya
           project-id: 242905
