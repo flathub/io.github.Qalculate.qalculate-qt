@@ -79,8 +79,8 @@ modules:
           cxxflags: -fsigned-char
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.8.1/qalculate-qt-5.8.1.tar.gz
-        sha256: 3cfc08bdf46bb88db004d73be4f462825d5fb90345e645cd302bfe8f0feccdb4
+        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.8.2/qalculate-qt-5.8.2.tar.gz
+        sha256: 51769d0fd1767e31baa9dc895874cdd9c2744f29ca05f5568dff979fbd5af41c
         x-checker-data:
           type: anitya
           project-id: 242905
