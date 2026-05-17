@@ -23,14 +23,6 @@ cleanup:
   - '*.la'
 modules:
   - name: gnuplot
-    config-opts:
-      - --without-gd
-      - --without-libcerf
-      - --without-lua
-      - --with-readline=gnu
-      - --without-linux-vga
-      - --with-qt
-      - --enable-maintainer-mode
     sources:
       - type: archive
         url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.4.tar.gz
@@ -41,14 +33,6 @@ modules:
           url-template: https://downloads.sourceforge.net/gnuplot/gnuplot-$version.tar.gz
 
   - name: libqalculate
-    build-options:
-      arch:
-        aarch64:
-          cxxflags: -fsigned-char
-    config-opts:
-      - --disable-static
-      - --enable-maintainer-mode
-      - --enable-compiled-definitions
     sources:
       - type: archive
         url: https://github.com/Qalculate/libqalculate/releases/download/v5.10.0/libqalculate-5.10.0.tar.gz
@@ -60,10 +44,6 @@ modules:
 
   - name: qalculate-qt
     buildsystem: qmake
-    build-options:
-      arch:
-        aarch64:
-          cxxflags: -fsigned-char
     sources:
       - type: archive
         url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.10.0/qalculate-qt-5.10.0.tar.gz
