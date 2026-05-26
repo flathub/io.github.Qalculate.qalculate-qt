@@ -35,8 +35,8 @@ modules:
   - name: libqalculate
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.10.0/libqalculate-5.10.0.tar.gz
-        sha256: 904592d33a98ed4a26a59fa34c855578e096144fb91965b8afc90e06797dba8e
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.11.0/libqalculate-5.11.0.tar.gz
+        sha256: 6217a634eeb9659ebb4080c265dfab47d8f8dd4c33394b48fd5a1f83ef4538c4
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -46,8 +46,8 @@ modules:
     buildsystem: qmake
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.10.0/qalculate-qt-5.10.0.tar.gz
-        sha256: 961d3e6e1718485d2ed23b7f3d065462eac977a087fd12082edc6627b00f8c50
+        url: https://github.com/Qalculate/qalculate-qt/releases/download/v5.11.0/qalculate-qt-5.11.0.tar.gz
+        sha256: c6bf9831bc6c2d43077fd8a1167c3c47154edecf9cc91c84bf2c8fe7f1b7f620
         x-checker-data:
           type: anitya
           project-id: 242905
